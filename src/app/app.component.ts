@@ -12,4 +12,8 @@ export class AppComponent {
     this.password = 'MY PASSWORD!!!';
     console.log("Button clicked!!!")
   }
+
+  getName() {
+    return "Luke Skywalker"
+  }
 }
